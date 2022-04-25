@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Etch-a-Sketch</title>
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <p id="title">Etch-a-Sketch</p>
+        </header>
+        
+        <main>
+            <div id="settings__container">
+                <input type="color" id="color__input">
+                <button id="draw-mode__button" class="button--unselected">Draw mode</button>
+                <button id="rainbow-mode__button" class="button--unselected">Rainbow mode</button>
+                <button id="clear__button" class="button--unselected">Clear</button>
+                <div id="grid-size__container">
+                    <p id="grid-size__text">16 x 16</p>
+                    <input type="range" id="grid-size__input" value="16" min="1" max="64">
+                </div>
+            </div>
+    
+            <div id="grid__container">
+                
+            </div>
+        </main>
+
+        <footer>
+            <div id="footer-container">
+                <p>Made with </p><img src="heart.png" id="heart"><p> by <a href="https://github.com/alesbe">alesbe</a></p>
+            </div>
+        </footer>
+            
+        <script src="script.js"></script>
+    </body>
+</html>
