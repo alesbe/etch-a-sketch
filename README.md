@@ -3,7 +3,7 @@
 
 Online drawing tool made with pure JS!
 
-## [Open Etch-a-Sketch]()
+## [Open Etch-a-Sketch](https://alesbe.github.io/etch-a-sketch/)
 
 ## Usage 🎨
 - **Color picker**: Pick your favorite color to draw!
